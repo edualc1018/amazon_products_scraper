@@ -1,4 +1,4 @@
-# Amazon Product
+# Amazon Product Scraper
 
 A simple scraper for amazon products and saves into csv file.
 
