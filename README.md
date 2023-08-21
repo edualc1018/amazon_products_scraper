@@ -15,6 +15,7 @@ A simple scraper for amazon products and saves into csv file.
 ## Installation
 
 Installing with virtualenv (Optional)
+
 ```sh
 $ python3 -m virtualenv .venv
 # pip install virtualenv
@@ -30,7 +31,6 @@ $ cd amazon_products_scraper
 $ pip install -r requirements.txt
 ```
 
-
 ## Usage
 
 This scraper can be start using:
@@ -43,27 +43,32 @@ $ python app.py
 
 The `settings.json` file provide some configuration on the scraper
 
-*search_term*
+_search_term_
+
 - List of searches you want to scrape.
 
-*group*
+_group_
+
 - Default to false. When set to any string for example "search_group_1" will save all the csv file in the folder with the name "search_group_1" inside the folder data.
 
-*cookie_string*
-- This is needed for the scraper to work.
-- I'll provide a tuturial how to get this.
+_cookie_string_
 
-*pages*
+- This is needed for the scraper to work.
+- I'll provide a [guide](./guides/get_cookie_string/README.md) how to get this.
+
+_pages_
+
 - Set the number of pages to scrape in the search result provided that the number of set pages is not greater than the maximum pages found in the search results.
 
-*delay*
+_delay_
+
 - Sets a delay while scraping. Let's not overload the website with requests.
 - the `pages` option sets the delay of scraping between pages for each search term.
 - the `search` option sets the delay for each search term.
 
-*show_html*
-- Saves the html response for each scraped pages.
+_show_html_
 
+- Saves the html response for each scraped pages.
 
 ## Features
 
@@ -72,11 +77,11 @@ The `settings.json` file provide some configuration on the scraper
 ## Contributing
 
 If you'd like to contribute, please follow these steps:
+
 1. Fork the repository.
 2. Create a new branch.
 3. Make your changes.
 4. Submit a pull request.
-
 
 ## License
 
