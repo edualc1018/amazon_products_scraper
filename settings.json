@@ -1,0 +1,18 @@
+{
+  "description": "Settings for Scraping amazon search results",
+  "search_terms": [
+    "fidget spinner",
+    "math",
+    "remote control",
+    "airpods",
+    "laptop"
+  ],
+  "group": false,
+  "cookie_string": "session-id=142-9819410-0684058; session-id-time=2082787201l; i18n-prefs=USD; skin=noskin; csm-hit=tb:s-451RKTP6TMGYJKNZACNM|1692533366488&t:1692533367727&adb:adblk_yes; ubid-main=134-1584567-6960547; sp-cdn='L5Z9:PH'; session-token='UnSVpu2LwBvJGJMjVOrYu7xRzcFWN3viuSnxlC2I7OFYWLZQwLVfegAmzBkobrkKHueeJF7mEXj1eUa3wCnKmnWTWu5nrbvI4zF6U50bjIOYhb1+sIH8Pr0ecOy2EifneAwP9stQXYCiGbSzQqrrPCKT6u2c+XNwJKNbHFzcsg2LzUyFjs7aaMy892r504h0U1DyF7WoMcGraM8IDQ3EvkCXkCxPeehfZv/opjddnYs='; JSESSIONID=192FA9BB4FD2CD031E6FBA598D0AC78F",
+  "pages": 2,
+  "delay": {
+    "pages": 2,
+    "search": 3
+  },
+  "show_html": true
+}
